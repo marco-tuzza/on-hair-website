@@ -1,0 +1,50 @@
+@import '../variables/colors.scss';
+
+header {
+    height: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+    #logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    #menu {
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            li {
+                a {
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: $secondary;
+
+                    &.active {
+                        color: $highlights;
+                    }
+
+                    &:hover {
+                        color: $highlights;
+                    }
+                }
+
+                &.button {
+                    background-color: $highlights;
+                    padding: 0.5rem 1.5rem;
+
+                    a {
+                        color: $primary-one;
+                    }
+                }
+            }
+        }
+    }
+}
