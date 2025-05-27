@@ -1,4 +1,4 @@
-@use '../variables/colors.scss';
+@use '../assets/colors.scss';
 
 header {
     height: 165px;
@@ -20,11 +20,12 @@ header {
             list-style: none;
             display: flex;
             align-items: center;
-            gap: 50px;
+            gap: 30px;
 
             li {
                 a {
                     font-size: 18px;
+                    letter-spacing: 1px;
                     text-transform: uppercase;
                     text-decoration: none;
                     color: colors.$secondary;
