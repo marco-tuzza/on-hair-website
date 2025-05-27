@@ -1,4 +1,4 @@
-@import '../variables/colors.scss';
+@use '../variables/colors.scss';
 
 header {
     height: 165px;
@@ -6,6 +6,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    z-index: 10;
+    position: relative;
 
     #logo {
         display: flex;
@@ -25,23 +27,23 @@ header {
                     font-size: 18px;
                     text-transform: uppercase;
                     text-decoration: none;
-                    color: $secondary;
+                    color: colors.$secondary;
 
                     &.active {
-                        color: $highlights;
+                        color: colors.$highlights;
                     }
 
                     &:hover {
-                        color: $highlights;
+                        color: colors.$highlights;
                     }
                 }
 
                 &.button {
-                    background-color: $highlights;
+                    background-color: colors.$highlights;
                     padding: 0.5rem 1.5rem;
 
                     a {
-                        color: $primary-one;
+                        color: colors.$primary-one;
                     }
                 }
             }
