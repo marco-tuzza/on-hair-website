@@ -1,23 +1,7 @@
 @use 'layout/header.scss';
 @use 'assets/colors.scss';
 @use 'assets/keyframes.scss';
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Teko", sans-serif;
-
-    &::selection {
-        color: colors.$primary-one;
-        background: colors.$highlights;
-    }
-
-    &::-moz-selection {
-        color: colors.$primary-one;
-        background: colors.$highlights;
-    }
-}
+@use 'assets/general.scss';
 
 #jumbotron {
     height: 100vh;
@@ -53,19 +37,6 @@
             font-weight: 400;
             text-align: center;
         }
-
-        // TODO make this a layout to reuse it
-        a.button {
-            margin-top: 50px;
-            padding: 0.5rem 1.75rem;
-            font-size: 18px;
-            font-weight: 500;
-            text-transform: uppercase;
-            text-decoration: none;
-            background-color: colors.$highlights;
-            color: colors.$primary-one;
-            letter-spacing: 1px;
-        }
     }
 }
 
@@ -73,16 +44,21 @@
     margin-top: calc(100vh - 165px);
     display: flex;
     flex-direction: column;
-    background-color: colors.$primary-one;
+    background-color: colors.$primary;
 
     div.barber-container {
         width: 100%;
+        height: 800px;
         display: flex;
 
         div.barber-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 150px;
             width: 50%;
             height: 100%;
-            padding: 150px 130px;
             color: colors.$secondary;
             text-align: center;
 
@@ -96,14 +72,23 @@
             span {
                 display: inline-block;
                 font-size: 18px;
-                color: colors.$primary-two;
+                color: colors.$secondary-two;
                 text-transform: uppercase;
-                margin-bottom: 50px;
+                margin-bottom: 40px;
+
+                &#barber-text-title {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: colors.$secondary;
+                    margin-bottom: 10px;
+                    text-transform: uppercase;
+                }
             }
 
             p {
                 font-size: 20px;
                 margin-bottom: 10px;
+                padding: 0px 10px;
             }
         }
 
@@ -113,10 +98,37 @@
 
             img {
                 width: 100%;
-                height: 800px;
+                height: 100%;
                 object-fit: cover;
                 object-position: top right;
             }
+        }
+    }
+}
+
+#services {
+    background-color: colors.$primary-two;
+
+    h2 {
+        padding-top: 110px;
+        font-size: 80px;
+        font-weight: 500;
+        text-align: center;
+        text-transform: uppercase;
+        color: colors.$secondary;
+    }
+
+    #services-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        padding: 0 350px;
+
+        div {
+            height: 300px;
+            background-color: red;
         }
     }
 }
