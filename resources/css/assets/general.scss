@@ -17,6 +17,10 @@
     }
 }
 
+body {
+    background-color: colors.$primary;
+}
+
 a.button {
     margin-top: 50px;
     padding: 0.5rem 1.75rem;

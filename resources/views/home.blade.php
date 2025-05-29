@@ -40,10 +40,26 @@
     <section id="services">
         <h2>I nostri servizi</h2>
         <div id="services-container">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+                <img src="https://www.onhair.men/wp-content/uploads/2023/01/capelli.jpg" alt="Taglio di capelli" loading="lazy">
+                <h3>Capelli</h3>
+                <p>I capelli dicono come stai, se ti prendi cura di te, quanta voglia hai di metterti in gioco o di stare tranquillo. I capelli sono un prolungamento della tua mente e della tua personalità. Qualcosa che non può essere lasciato al caso, né tanto meno essere affidato, senza pensarci, alle mode.  Noi cerchiamo di capirti, studiamo con te l’acconciatura che ti valorizzi, studiamo come tu stesso possa prenderti cura dei capelli migliorandone lucentezza, resistenza e bellezza.</p>
+            </div>
+            <div>
+                <img src="https://www.onhair.men/wp-content/uploads/2023/01/BARBA.jpg" alt="">
+                <h3>Barba</h3>
+                <p>Lunghissima, corta, rada, riccia, liscia, mossa. Le barbe dominano. Noi non abbiamo soluzioni pronte. Amiamo capire cosa vuoi, come vorresti presentarti. Conosciamo tutte le mode, sempre aggiornati su tutte le tendenze. Non siamo qui solo per questo. Vogliamo scoprire qual è la barba migliore per te, qual è la barba che ti piace.  La tua barba sei tu.</p>
+            </div>
+            <div>
+                <img src="https://www.onhair.men/wp-content/uploads/2023/01/percorsi-relax.jpg" alt="">
+                <h3>Percorsi Relax</h3>
+                <p>Tutte le età hanno i loro bisogni. L’uomo non invecchia, matura. Ma questo processo di raffinazione va curato e poi: si vede subito. La cura della pelle è parte integrante del nostro approccio. La nostra linea per la skin care è stata studiata meticolosamente: non un prodotto per tutto ma una collezione di soluzioni. La salute del tuo viso corrisponde al tuo benessere. </p>
+            </div>
+            <div>
+                <img src="https://www.onhair.men/wp-content/uploads/2023/01/THEOS.jpg" alt="">
+                <h3>Theos</h3>
+                <p>Abbiamo vissuto tutta la nostra vita dentro il mondo dell’acconciatura maschile. Abbiamo sperimentato tutti i prodotti, tutti gli strumenti. Dopo aver scelto i migliori prodotti, i più esclusivi e i più costosi, dopo averli provati e riprovati abbiamo deciso che non ci bastavano più, volevamo qualcosa che rispondesse totalmente alle nostre idee. Volevamo garanzie speciali, volevamo qualcosa di esclusivo. Abbiamo creato così una nostra linea di prodotti. Dopo 18 mesi di sperimentazione a fianco dei migliori laboratori chimici d’Italia abbiamo lanciato la nostra linea: Theos. Organici, biologici, anallergici, ultra concentrati, una linea esclusiva fatta per professionisti che vogliono solo il meglio.</p>
+            </div>
         </div>
     </section>
 @stop
