@@ -23,7 +23,7 @@
                 <a href="/contattaci" class="{{ request()->is('/contattaci') ? 'active' : '' }}">Contatti</a>
             </li>
             <li class="button">
-                <a href="/admin">Prenota Ora</a>
+                <a href="/contattaci">Prenota Ora</a>
             </li>
         </ul>
     </div>
