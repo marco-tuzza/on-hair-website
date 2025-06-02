@@ -129,6 +129,20 @@
     </section>
     <section id="online-booking">
         <h3>Prenota adesso compilando il modulo online</h3>
-        <iframe src="https://aws.bookappbusiness.com:2803/onhair20" width="100%" height="800px" frameborder="0" loading="lazy" title="Prenota un appuntamento compilando il modulo online"></iframe>
+        <iframe src="https://aws.bookappbusiness.com:2803/onhair20" width="100%" height="800px" loading="lazy" title="Prenota un appuntamento compilando il modulo online"></iframe>
+    </section>
+    <section id="gentleman-club">
+        <div id="gentleman-club-container">
+            <div id="gentleman-club-image">
+                <img src="https://www.onhair.men/wp-content/uploads/2023/01/gentlemens.jpg" alt="Logo del gentlemen's club" loading="lazy">
+            </div>
+            <div id="gentleman-club-text">
+                <span>Gentlemen's Club</span>
+                <p>On hair è più che un barber shop. Nel corso degli anni, abbiamo creato una comunità di persone che amano lo stile, il relax e il benessere. L’attenzione per il piacere e la bellezza ci ha portato a realizzare un club speciale dedicato solo ai gentiluomini che frequentano On Hair, un luogo fisico ma anche una collettività che sa gustare i piaceri della vita, in maniera sana e sempre gradevole. </p>
+                <p><b>On Hair Gentlemen’s Club</b> consente ai suoi aderenti di accedere a servizi e trattamenti speciali non solo nel nostro salone ma anche presso la rete dei nostri affiliati. Sconti, offerte e tariffe agevolate fanno parte dei vantaggi della carda On Hair Gentlemen’s club: un modo speciale per prenderti cura di te anche quando non sei con noi.</p>
+                <p>Per iscriverti all'<b>On Hair Gentlemen’s club</b>, conoscere offerte e vantaggi, compila il form sottostante o vieni a trovarci nel nostro salone. </p>
+                <a class="button" href="/contattaci">Iscriviti al Gentlemen's Club</a>
+            </div>
+        </div>
     </section>
 @stop

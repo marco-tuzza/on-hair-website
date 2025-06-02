@@ -291,3 +291,43 @@
         color: colors.$secondary;
     }
 }
+
+#gentleman-club {
+    padding: 100px 0;
+    background-color: colors.$primary-two;
+
+    #gentleman-club-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+        padding: 0 350px;
+
+        #gentleman-club-image {
+            width: 50%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        #gentleman-club-text {
+            width: 50%;
+            color: colors.$secondary;
+
+            span {
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 20px;
+                margin: 20px 0;
+            }
+
+            a {
+                margin-top: 30px;
+            }
+        }
+    }
+}
