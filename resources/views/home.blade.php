@@ -127,4 +127,8 @@
             </div>
         </div>
     </section>
+    <section id="online-booking">
+        <h3>Prenota adesso compilando il modulo online</h3>
+        <iframe src="https://aws.bookappbusiness.com:2803/onhair20" width="100%" height="800px" frameborder="0" loading="lazy" title="Prenota un appuntamento compilando il modulo online"></iframe>
+    </section>
 @stop

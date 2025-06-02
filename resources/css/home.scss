@@ -108,9 +108,10 @@
 
 #services {
     background-color: colors.$primary-two;
+    padding: 50px 0;
 
     h2 {
-        padding-top: 100px;
+        padding: 50px 0;
         font-size: 80px;
         font-weight: 500;
         text-align: center;
@@ -170,6 +171,7 @@
 
 #path {
     background-color: colors.$primary-two;
+    padding: 50px 0;
 
     h3 {
         padding-top: 100px;
@@ -238,9 +240,9 @@
 
 #gallery {
     background-color: colors.$secondary;
+    padding: 50px 0;
 
     h3 {
-        padding-top: 100px;
         font-size: 80px;
         font-weight: 500;
         text-align: center;
@@ -274,5 +276,18 @@
                 }
             }
         }
+    }
+}
+
+#online-booking {
+    background-color: colors.$primary-two;
+
+    h3 {
+        padding: 100px 0;
+        font-size: 50px;
+        font-weight: 500;
+        text-align: center;
+        text-transform: uppercase;
+        color: colors.$secondary;
     }
 }
