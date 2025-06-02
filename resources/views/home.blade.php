@@ -95,4 +95,36 @@
             </div>
         </div>
     </section>
+    <section id="gallery">
+        <!-- TODO Update the gallery with the actual images-->
+        <h3>Gallery Style</h3>
+        <div id="gallery-container">
+            <div id="gallery">
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 1" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 2" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 3" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 4" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 5" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 6" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 7" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 8" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 9" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 10" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 11" loading="lazy">
+                </div>
+                <div class="gallery-item"><img src="https://placehold.co/400" alt="Gallery image 12" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
 @stop
