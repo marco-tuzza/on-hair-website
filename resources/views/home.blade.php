@@ -61,5 +61,38 @@
                 <p>Abbiamo vissuto tutta la nostra vita dentro il mondo dell’acconciatura maschile. Abbiamo sperimentato tutti i prodotti, tutti gli strumenti. Dopo aver scelto i migliori prodotti, i più esclusivi e i più costosi, dopo averli provati e riprovati abbiamo deciso che non ci bastavano più, volevamo qualcosa che rispondesse totalmente alle nostre idee. Volevamo garanzie speciali, volevamo qualcosa di esclusivo. Abbiamo creato così una nostra linea di prodotti. Dopo 18 mesi di sperimentazione a fianco dei migliori laboratori chimici d’Italia abbiamo lanciato la nostra linea: Theos. Organici, biologici, anallergici, ultra concentrati, una linea esclusiva fatta per professionisti che vogliono solo il meglio.</p>
             </div>
         </div>
+        <div id="services-button">
+            <a href="/listino-prezzi" class="button">Scopri il listino prezzi</a>
+        </div>
+    </section>
+    <section id="path">
+        <h3>Il percorso OnHair in 5 step</h3>
+        <div id="path-container">
+            <div id="path-1">
+                <span class="path-number">1</span>
+                <h4 class="path-title">Welcome</h4>
+                <p class="path-text">Iniziamo con un benvenuto, caffè e un po’ di chicchere per raccogliere informazioni sul tuo taglio, i tuoi capelli e il tuo stile.</p>
+            </div>
+            <div id="path-2">
+                <span class="path-number">2</span>
+                <h4 class="path-title">Hair Design</h4>
+                <p class="path-text">Dopo esserci confrontati, ti proporremo una tipologia di trattamento specifico per i tuoi capelli, la tua barba e la cute del tuo viso. La nostra sarà una vera e propria consulenza integrata. Il nostro obiettivo è valorizzare la natura: dai tuo capelli alla barba ciò che vogliamo è renderti soddisfatto, senza stravolgere il tuo stile e senza importi modelli preconfezionati. </p>
+            </div>
+            <div id="path-3">
+                <span class="path-number">3</span>
+                <h4 class="path-title">Let's Start</h4>
+                <p class="path-text">Una volta confermato il tuo hair design, possiamo iniziare il nostro trattamento. Mettiti comodo e rilassati. Sarai servito con la massima cura, verranno usati solo i prodotti premium della linea Theos e in ogni momento potrai confrontarti con noi per calibrare al meglio il nostro risultato.</p>
+            </div>
+            <div id="path-4">
+                <span class="path-number">4</span>
+                <h4 class="path-title">After Hair</h4>
+                <p class="path-text">Una volta ultimato il nostro servizio ti forniremo alcuni importanti consigli per la cura e il mantenimento dell’acconciatura. Cosa fare per irrobustire, ingentilire o domare il tuo capello, come mantenere il disegno della barba, quali prodotti usare per evitare la secchezza o, al contrario, un eccesso di sebo.</p>
+            </div>
+            <div id="path-5">
+                <span class="path-number">5</span>
+                <h4 class="path-title">Total Running</h4>
+                <p class="path-text">Abbiamo tanta fretta ma quando si tratta del nostro aspetto e del nostro benessere è meglio avere ancora tempo. Qui da On Hair Siamo veloci, siamo efficaci ma a noi piace coccolare, viziare e costruire un rapporti di fiducia con i nostri clienti. Ci piace che ON HAIR sia un luogo di relax, un luogo dove il tempo si ferma e, come tra buoni amici, non abbiamo bisogno di guardare l’orologio. </p>
+            </div>
+        </div>
     </section>
 @stop
