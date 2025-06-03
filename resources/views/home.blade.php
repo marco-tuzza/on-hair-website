@@ -1,6 +1,7 @@
 @extends('layouts.main')
 @push('styles')
     @vite(['resources/css/home.scss'])
+    @vite(['resources/js/app.js'])
 @endpush
 @section('content')
     <section id="jumbotron">

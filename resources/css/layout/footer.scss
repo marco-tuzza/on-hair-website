@@ -39,7 +39,7 @@ footer {
             }
 
             #footer-text-time {
-                margin-bottom: $footer-spacing-standard / 2;
+                margin-bottom: calc($footer-spacing-standard / 2);
             }
         }
 
