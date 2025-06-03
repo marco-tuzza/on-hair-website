@@ -1,0 +1,63 @@
+@use '../assets/colors.scss';
+
+$footer-text-standard-size: 20px;
+$footer-spacing-standard: 40px;
+
+@mixin footer-text-style {
+    color: colors.$secondary;
+    text-align: center;
+}
+
+footer {
+    background-color: colors.$primary-two;
+
+    #footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 350px;
+
+        #footer-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 30%;
+            height: 100%;
+            @include footer-text-style;
+
+            span {
+                font-size: $footer-text-standard-size;
+            }
+
+            #footer-text-title {
+                margin-top: $footer-spacing-standard;
+            }
+
+            #footer-text-address {
+                font-size: 30px;
+                margin: $footer-spacing-standard 0;
+            }
+
+            #footer-text-time {
+                margin-bottom: $footer-spacing-standard / 2;
+            }
+        }
+
+        #footer-map {
+            width: 70%;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    #footer-credits {
+        text-align: center;
+        padding: 50px 0;
+        border-top: 1px solid colors.$secondary-two;
+
+        span {
+            @include footer-text-style;
+            font-size: $footer-text-standard-size;
+        }
+    }
+}

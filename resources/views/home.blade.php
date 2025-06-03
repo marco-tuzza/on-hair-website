@@ -129,7 +129,7 @@
     </section>
     <section id="online-booking">
         <h3>Prenota adesso compilando il modulo online</h3>
-        <iframe src="https://aws.bookappbusiness.com:2803/onhair20" width="100%" height="800px" loading="lazy" title="Prenota un appuntamento compilando il modulo online"></iframe>
+        <iframe src="https://aws.bookappbusiness.com:2803/onhair20" style="border:0" width="100%" height="800px" loading="lazy" title="Prenota un appuntamento compilando il modulo online"></iframe>
     </section>
     <section id="gentleman-club">
         <div id="gentleman-club-container">
