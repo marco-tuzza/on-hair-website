@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function handleScroll() {
         const scrollPosition = window.scrollY;
 
-        if (scrollPosition > 160 && !isSticky)
+        if (scrollPosition > 0 && !isSticky)
         {
             header.classList.add('sticky');
             placeholder.style.display = 'block';

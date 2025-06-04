@@ -1,7 +1,7 @@
 @use '../assets/colors.scss';
 
-$footer-text-standard-size: 20px;
-$footer-spacing-standard: 40px;
+$footer-text-standard-size: 1.25rem;
+$footer-spacing-standard: 2.5rem;
 
 @mixin footer-text-style {
     color: colors.$secondary;
@@ -15,7 +15,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 100px 350px;
+        padding: 6.25rem 21.875rem;
 
         #footer-text {
             display: flex;
@@ -34,7 +34,7 @@ footer {
             }
 
             #footer-text-address {
-                font-size: 30px;
+                font-size: 1.875rem;
                 margin: $footer-spacing-standard 0;
             }
 
@@ -52,8 +52,8 @@ footer {
 
     #footer-credits {
         text-align: center;
-        padding: 50px 0;
-        border-top: 1px solid colors.$secondary-two;
+        padding: 3.125rem 0;
+        border-top: 0.0625rem solid colors.$secondary-two;
 
         span {
             @include footer-text-style;
