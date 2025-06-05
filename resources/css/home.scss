@@ -1,45 +1,7 @@
-@use 'layout/header.scss';
 @use 'assets/colors.scss';
 @use 'assets/keyframes.scss';
 @use 'assets/general.scss';
 @use 'layout/footer.scss';
-
-#jumbotron {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url('https://www.onhair.men/wp-content/uploads/2023/01/slider-1.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: appear 2s linear;
-
-    #jumbotron-text {
-        color: colors.$secondary;
-        margin-top: 18.75rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        h1 {
-            font-size: 7.5rem;
-            font-weight: 400;
-            text-transform: uppercase;
-            text-align: center;
-            line-height: 6.25rem;
-        }
-
-        h2 {
-            font-size: 3.375rem;
-            font-weight: 400;
-            text-align: center;
-        }
-    }
-}
 
 #barbers {
     margin-top: calc(100vh - 10.3125rem);

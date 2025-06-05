@@ -1,0 +1,167 @@
+// Critical CSS for above-the-fold content
+// Contains styles for header and jumbotron
+
+// Colors
+$primary : #000000;
+$primary-two : #202020;
+$secondary : #ffffff;
+$secondary-two : #747474;
+$highlights : #e9c664;
+$accent : #0089f7;
+
+// Keyframes
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+// General styles
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+}
+
+html {
+    &::selection {
+        color: $primary;
+        background: $highlights;
+    }
+
+    &::-moz-selection {
+        color: $primary;
+        background: $highlights;
+    }
+}
+
+body {
+    background-color: $primary;
+}
+
+a.button {
+    display: inline-block;
+    margin-top: 3.125rem;
+    padding: 0.5rem 1.75rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: $highlights;
+    color: $primary;
+    letter-spacing: 0.0625rem;
+}
+
+// Header styles
+header {
+    height: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 10;
+    position: relative;
+    transition: height 0.5s ease;
+
+    &.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background-color: $primary-two;
+        opacity: 90%;
+        z-index: 1000;
+
+        #logo {
+            img {
+                height: 80%;
+            }
+        }
+    }
+
+    #logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    #menu {
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            li {
+                a {
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: $secondary;
+
+                    &.active {
+                        color: $highlights;
+                    }
+
+                    &:hover {
+                        color: $highlights;
+                    }
+                }
+
+                &.button {
+                    background-color: $highlights;
+                    padding: 0.5rem 1.5rem;
+
+                    a {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Jumbotron styles
+#jumbotron {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('https://www.onhair.men/wp-content/uploads/2023/01/slider-1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: appear 2s linear;
+
+    #jumbotron-text {
+        color: $secondary;
+        margin-top: 18.75rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-size: 7.5rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 6.25rem;
+        }
+
+        h2 {
+            font-size: 3.375rem;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+}
