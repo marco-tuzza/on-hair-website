@@ -1,5 +1,3 @@
-import './bootstrap';
-
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.querySelector('header');
     const headerHeight = header.offsetHeight;

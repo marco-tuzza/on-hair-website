@@ -11,10 +11,6 @@
         <!-- Critical CSS for above-the-fold content -->
         @vite(['resources/css/critical.scss'])
 
-        <!-- Fonts -->
-        <!-- TODO maybe not using a CDN and have the font already in the website? -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
         </style>
@@ -24,6 +20,10 @@
         @yield('content')
         @include('layouts.footer')
 
+        <!-- Fonts -->
+        <!-- TODO maybe not using a CDN and have the font already in the website? -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <!-- Non-critical styles and scripts -->
         @stack('styles')
     </body>

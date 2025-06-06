@@ -89,6 +89,10 @@ header {
         display: flex;
         align-items: center;
         height: 100%;
+
+        img {
+            height: 65%;
+        }
     }
 
     #menu {
@@ -135,7 +139,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('https://www.onhair.men/wp-content/uploads/2023/01/slider-1.jpg');
+    background-image: url('/public/images/home/jumbotron.webp');
     background-size: cover;
     background-position: center;
     display: flex;

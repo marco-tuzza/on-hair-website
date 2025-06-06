@@ -1,6 +1,6 @@
 <header>
     <div id="logo">
-        <img src="https://www.onhair.men/wp-content/uploads/2023/01/onhairl_logo_web2.png" alt="On hair barber shop logo">
+        <img src="{{ asset('images/home/retina-logo_onhair2.png') }}" alt="On hair barber shop logo">
     </div>
     <div id="menu">
         <ul>
