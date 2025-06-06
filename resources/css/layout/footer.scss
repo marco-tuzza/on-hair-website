@@ -41,6 +41,15 @@ footer {
             #footer-text-time {
                 margin-bottom: calc($footer-spacing-standard / 2);
             }
+
+            a {
+                text-decoration: none;
+                color: colors.$secondary;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
 
         #footer-map {
